@@ -10,7 +10,7 @@ $(call inherit-product, vendor/cm/config/gsm.mk)
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-PRODUCT_NAME := cm_primou
+PRODUCT_NAME := ev_primou
 PRODUCT_RELEASE_NAME := primou
 PRODUCT_BRAND := htc
 PRODUCT_DEVICE := primou
